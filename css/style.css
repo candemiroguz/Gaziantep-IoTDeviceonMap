@@ -1,0 +1,21 @@
+#header{
+  width: 100%;
+  height: 10vh;
+  background: rgb(63,94,251);
+  background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  border: solid;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+}
+
+
+#map {
+    width: 100%;
+    height: 100vh;
+  }
+  
+.leaflet-popup-content {
+    padding: 10px;
+ }
+
