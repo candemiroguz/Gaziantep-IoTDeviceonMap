@@ -1,80 +1,99 @@
+//Harita Yükle
 let map = L.map('map', {
     center: [37.038250, 37.334227],
-    zoom: 13
-  });
-  
+    zoom: 11,
+    zoomControl: false,
+});
+
+map.attributionControl.setPrefix('')
+
+  //Logo Tanımı Yap
+let IoTLogo = L.icon({
+  iconUrl: '/img/broadcast_85838.png',
+  iconSize: [38,38],
+  iconAnchor: [19, 38],
+  popupAnchor: [0, -38]
+})
+
+let LayerManagementLogo = L.icon({
+  iconUrl: '/img/layericon.png',
+  iconSize: [44,44],
+  iconAnchor: [22, 44],
+  popupAnchor: [0, -22]
+})
   // Altlık Harita Ekle
-  let OSMMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-
-  let googleStreetsMap = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
-    subdomains:['mt0','mt1','mt2','mt3']
-  });
-
-  let googleHybritMap = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
-    subdomains:['mt0','mt1','mt2','mt3']
-  });
-
-  let googleSatelliteMap = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
-    subdomains:['mt0','mt1','mt2','mt3']
-  });
-
-  let googleTerrainMap = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
-    subdomains:['mt0','mt1','mt2','mt3']
-  });
-
-
-  //İstasyon Koordinatları Tanımlanması
-  const istasyon1 = [37.073416, 37.372116];
-  const istasyon2 = [37.076628, 37.349693];
-  const istasyon3 = [37.013255, 37.376328];
-  const istasyon4 = [37.032382, 37.322402];
-  const istasyon7 = [36.992779, 37.315095];
-  
-  // İstasyonların Marker Olarak Haritada Gösterilmesi
-  let istasyon_1 = L.marker(istasyon1).addTo(map);
-  let istasyon_2 = L.marker(istasyon2).addTo(map);
-  let istasyon_3 = L.marker(istasyon3).addTo(map);
-  let istasyon_4 = L.marker(istasyon4).addTo(map);
-  let istasyon_7 = L.marker(istasyon7).addTo(map);
-  
-
-  
+let OSMMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: 'Developed by &copy; candemiroguz &mdash;'
+}).addTo(map);
+let googleStreetsMap = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
+  subdomains:['mt0','mt1','mt2','mt3']
+});
+let googleHybritMap = L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}',{
+  subdomains:['mt0','mt1','mt2','mt3']
+});
+let googleSatelliteMap = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+  subdomains:['mt0','mt1','mt2','mt3'],
+  maxZoom: 25
+});
+let googleTerrainMap = L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}',{
+  subdomains:['mt0','mt1','mt2','mt3']
+});
+ 
+//TomTom Traffic API Ekle
+const TomTomApiKEY = ''
+let TomTomApiUrl = `https://api.tomtom.com/traffic/map/4/tile/flow/absolute/{z}/{x}/{y}.png?view=Unified&key=${TomTomApiKEY}`
+let TomTomTraffic = L.tileLayer(TomTomApiUrl
+);
 
 
- //   function onMapClick(e) {
-//     popup
-//         .setLatLng(e.latlng)
-//         .setContent("You clicked the map at " + e.latlng.toString())
-//         .openOn(map);
-// }
+//İstasyon Koordinatları Tanımlanması
+const istasyon1 = [37.073416, 37.372116];
+const istasyon2 = [37.076628, 37.349693];
+const istasyon3 = [37.013255, 37.376328];
+const istasyon4 = [37.032382, 37.322402];
+const istasyon7 = [36.992779, 37.315095];
 
-// map.on('click', onMapClick);
+// İstasyonların Marker Olarak Haritada Gösterilmesi
+let istasyon_1 = L.marker(istasyon1, {icon: IoTLogo});
+let istasyon_2 = L.marker(istasyon2, {icon: IoTLogo});
+let istasyon_3 = L.marker(istasyon3, {icon: IoTLogo});
+let istasyon_4 = L.marker(istasyon4, {icon: IoTLogo});
+let istasyon_7 = L.marker(istasyon7, {icon: IoTLogo});
+
+let IoTDevices = L.layerGroup([istasyon_1, istasyon_2, istasyon_3, istasyon_4, istasyon_7]);
 
 let baseMaps = {
   "OpenStreetMap": OSMMap,
   "Google Satellite" : googleSatelliteMap,
-  "Google Street" : googleStreetsMap,
-  "Google Hybrit" : googleHybritMap,
-  "Google Terrain" : googleTerrainMap
+  // "Google Street" : googleStreetsMap,
+  // "Google Hybrit" : googleHybritMap,
+  // "Google Terrain" : googleTerrainMap,
+  
+  
 }
 
-let IoTDevices = {
-  "İstasyon 1" : istasyon_1,
-  "İstasyon 2" : istasyon_2,
-  "İstasyon 3" : istasyon_3,
-  "İstasyon 4" : istasyon_4,
-  "İstasyon 7" : istasyon_7
-} 
+// let IoTDevices = {
+//   "İstasyon 1" : istasyon_1,
+//   "İstasyon 2" : istasyon_2,
+//   "İstasyon 3" : istasyon_3,
+//   "İstasyon 4" : istasyon_4,
+//   "İstasyon 7" : istasyon_7,
+ 
+// } 
 
-let layerControl = L.control.layers(baseMaps,IoTDevices).addTo(map);
+let overlayMaps = {
+  "IoT Cihazları": IoTDevices,
+  "Trafik Datası": TomTomTraffic
+
+};
+
+let layerControl = L.control.layers(baseMaps,overlayMaps).addTo(map);
 
 //API İstasyon Numaraları Tanımla
 const stations = new Array("1","2","3","4","7");
 
 // API'den IoT Verileri için Request gönder
-function fetchGaziantepOpenData () {
+function GetGaziantepOpenData () {
 let request = new XMLHttpRequest();
 request.open('GET', 'https://opendataapi.gaziantep.bel.tr/api/Environment/GetEnvironmentDtos');
 request.onload = function() {
@@ -87,7 +106,7 @@ request.onload = function() {
       let filteredData = data.filter(function(e) {
         return e.istasyonNo === station;
       });
-      let last5Data = filteredData.slice(1);
+      let last5Data = filteredData.slice(0);
       last5DataArray = last5DataArray.concat(last5Data);
     }
 
@@ -195,9 +214,9 @@ request.onload = function() {
   Anlikortppm= Math.round(((parseFloat(station1values[4])+parseFloat(station2values[4])+parseFloat(station3values[4])+parseFloat(station4values[4])+parseFloat(station7values[4]))/5)*1000)/1000
 
   
-  let ortsicaklikhtml = "Ort. Sıcaklik" + " : " + `${Anlikortsicaklik}`
+  let ortsicaklikhtml = "Ort. Sıcaklik" + " : " + `${Anlikortsicaklik}` + "°C"
   document.querySelector('.Sicaklik').innerHTML = ortsicaklikhtml
-  let ortbasinchtml = "Ort. Basınç" + " : " + `${Anlikortbasinc}`
+  let ortbasinchtml = "Ort. Basınç" + " : " + `${Anlikortbasinc}` +""
   document.querySelector('.Basinc').innerHTML = ortbasinchtml
   let ortnemhtml = "Ort. Nem" + " : " + `${Anlikortnem}`
   document.querySelector('.Nem').innerHTML = ortnemhtml
@@ -209,7 +228,7 @@ request.onload = function() {
 request.send();
 };
 
-setInterval(fetchGaziantepOpenData, 5000);
+setInterval(GetGaziantepOpenData, 5000);
 
 // console.log(last5Data)
 

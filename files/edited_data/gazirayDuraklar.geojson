@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "gazirayDuraklar",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Taşlıca", "_uuid": "{7cc67804-c9ca-46c2-a4a8-cb4fff7b5518}" }, "geometry": { "type": "Point", "coordinates": [ 37.448876355613621, 37.058298026369549, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Mustafa Yavuz", "_uuid": "{f7a8e23f-5153-4732-b60d-2acce1e9edd3}" }, "geometry": { "type": "Point", "coordinates": [ 37.430554909803433, 37.070934794805403, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Seyrantepe", "_uuid": "{995760a0-6588-408d-a38e-00f9effead1e}" }, "geometry": { "type": "Point", "coordinates": [ 37.424708684356197, 37.076140442752802, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Göllüce", "_uuid": "{e8d48f25-51b2-4b0c-a6d9-ec797ccec819}" }, "geometry": { "type": "Point", "coordinates": [ 37.405375550134387, 37.074215200328197, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Gar", "_uuid": "{bf7393e4-d211-46a9-955e-0bb2aba1fa0e}" }, "geometry": { "type": "Point", "coordinates": [ 37.382684760788422, 37.073476724470872, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Mücahitler", "_uuid": "{c1cb02d1-9c1a-4b8a-98b6-e56b9a678956}" }, "geometry": { "type": "Point", "coordinates": [ 37.3706408057934, 37.074245881861557, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Topraklık", "_uuid": "{b8bd05d6-f16f-4954-b4a0-bae6caa88431}" }, "geometry": { "type": "Point", "coordinates": [ 37.361446491928078, 37.076102857195451, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Adliye", "_uuid": "{fed73add-2cbb-46f9-a5e3-2b2d6ae08f2b}" }, "geometry": { "type": "Point", "coordinates": [ 37.358549984879588, 37.087734382772659, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Selimiye", "_uuid": "{1bfee9b7-f4ef-46c2-a875-17eec8160f12}" }, "geometry": { "type": "Point", "coordinates": [ 37.372392416851959, 37.099202981701112, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Fıstıklık", "_uuid": "{ac65ca08-5d1a-4110-a709-5e29f191bd25}" }, "geometry": { "type": "Point", "coordinates": [ 37.380725508649597, 37.111993178096519, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Beylerbeyi", "_uuid": "{0fb03e5a-03a4-4c05-a784-c3c03773d4e2}" }, "geometry": { "type": "Point", "coordinates": [ 37.384663167424939, 37.119831543625459, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Stadyum", "_uuid": "{5037d9ab-20a6-421c-ae83-bc368f8f6287}" }, "geometry": { "type": "Point", "coordinates": [ 37.381442000383579, 37.126861694001633, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Dülük", "_uuid": "{4fc8cd5e-51da-4112-b59d-51db9bd071b9}" }, "geometry": { "type": "Point", "coordinates": [ 37.363419856014673, 37.149621430750692, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "OSB4", "_uuid": "{212a6b44-f33e-4812-9319-d6780ff1a341}" }, "geometry": { "type": "Point", "coordinates": [ 37.352247189580318, 37.1635901156382, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "OSB3", "_uuid": "{aa705d71-1b9d-4d38-88e0-bab283c87259}" }, "geometry": { "type": "Point", "coordinates": [ 37.341678914948133, 37.163909610805263, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Başpınar", "_uuid": "{79279de7-86cc-4a06-859d-c6a01c68e537}" }, "geometry": { "type": "Point", "coordinates": [ 37.334364112113661, 37.166706259305947, 0.0 ] } }
+]
+}

@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "itfaiyeIstasyonlari",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::5256" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Merkez", "Easting": 624150.92, "Northing": 4103947.56, "_uuid": "{672f11e6-910d-4617-959c-a7eacd21d4a7}" }, "geometry": { "type": "Point", "coordinates": [ 624150.92000000004191, 4103947.56 ] } },
+{ "type": "Feature", "properties": { "Name": "Küsget", "Easting": 626756.43, "Northing": 4106583.46, "_uuid": "{2d437ca6-e2ca-4451-9924-08a121ccfaf2}" }, "geometry": { "type": "Point", "coordinates": [ 626756.430000000051223, 4106583.46 ] } },
+{ "type": "Feature", "properties": { "Name": "Karşıyaka", "Easting": 621259.05, "Northing": 4107098.61, "_uuid": "{f730b9f5-5f86-419b-997e-71c68c49923a}" }, "geometry": { "type": "Point", "coordinates": [ 621259.050000000046566, 4107098.609999999869615 ] } },
+{ "type": "Feature", "properties": { "Name": "Karataş", "Easting": 619277.82, "Northing": 4099021.06, "_uuid": "{848dcb26-0ff9-4323-b73f-cb071088dc35}" }, "geometry": { "type": "Point", "coordinates": [ 619277.819999999948777, 4099021.06 ] } },
+{ "type": "Feature", "properties": { "Name": "Cumhuriyet", "Easting": 620761.57, "Northing": 4103358.18, "_uuid": "{e237bf9b-bd5d-416b-b262-7c6a10364cbf}" }, "geometry": { "type": "Point", "coordinates": [ 620761.569999999948777, 4103358.180000000167638 ] } },
+{ "type": "Feature", "properties": { "Name": "Nizip", "Easting": 659918.35, "Northing": 4099611.15, "_uuid": "{5b74ae8d-14f1-4ecf-aab4-267e1736a501}" }, "geometry": { "type": "Point", "coordinates": [ 659918.349999999976717, 4099611.15 ] } },
+{ "type": "Feature", "properties": { "Name": "Nurdağı", "Easting": 567666.68, "Northing": 4117981.81, "_uuid": "{aa31c0cc-56d6-438c-a97a-272c3b56cde1}" }, "geometry": { "type": "Point", "coordinates": [ 567666.680000000051223, 4117981.81 ] } },
+{ "type": "Feature", "properties": { "Name": "İslahiye", "Easting": 555427.18, "Northing": 4095877.98, "_uuid": "{e62a980c-cdcb-425d-b679-5520d0cd5c26}" }, "geometry": { "type": "Point", "coordinates": [ 555427.180000000051223, 4095877.98 ] } },
+{ "type": "Feature", "properties": { "Name": "Oğuzeli", "Easting": 634021.23, "Northing": 4094424.58, "_uuid": "{5695f975-d126-4dc9-a3bd-760cab03edb2}" }, "geometry": { "type": "Point", "coordinates": [ 634021.229999999981374, 4094424.58 ] } },
+{ "type": "Feature", "properties": { "Name": "Körkün", "Easting": 628432.92, "Northing": 4093808.14, "_uuid": "{6b83a4d1-fdb1-4c27-988a-0f140073d1eb}" }, "geometry": { "type": "Point", "coordinates": [ 628432.92000000004191, 4093808.140000000130385 ] } },
+{ "type": "Feature", "properties": { "Name": "Araban", "Easting": 649436.64, "Northing": 4144545.79, "_uuid": "{b32c1bd0-534f-4e42-9429-6d34235a94af}" }, "geometry": { "type": "Point", "coordinates": [ 649436.64000000001397, 4144545.79 ] } },
+{ "type": "Feature", "properties": { "Name": "Yavuzeli", "Easting": 638330.96, "Northing": 4132868.57, "_uuid": "{e876cf4d-31ac-4cd3-8483-89b032b31242}" }, "geometry": { "type": "Point", "coordinates": [ 638330.959999999962747, 4132868.569999999832362 ] } },
+{ "type": "Feature", "properties": { "Name": "Karkamış", "Easting": 678473.17, "Northing": 4079705.45, "_uuid": "{763f225f-ad36-496c-9549-e220fa84ce12}" }, "geometry": { "type": "Point", "coordinates": [ 678473.17000000004191, 4079705.450000000186265 ] } }
+]
+}

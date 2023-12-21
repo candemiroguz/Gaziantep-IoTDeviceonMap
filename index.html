@@ -5,22 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaziantep Smart Map</title>
+    <link rel="icon" href="/img/beyaz_logo.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Poppins&family=Rubik+Maps&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div id="header">
-        <h3 class="Sicaklik">Ort. Sicaklik</h3>
-        <h3 class="Basinc offset-2">Ort. Basinc</h3>
-        <h3 class="Nem offset-2">Ort. Nem</h3>
-        <h3 class="PPM offset-2">Ort. PPM</h3>
+    <div id="map">
+        <div id="header" class="flex-column">
+            <div class="baslik">
+                <h1>Gaziantep Akıllı Şehir Haritası</h1>
+            </div>
+            <div class="row col-12 text-center align-items-end border-bottom-5">
+                <h3 class="Sicaklik col-3">Ort. Sicaklik</h3>
+                <h3 class="Basinc col-3">Ort. Basinc</h3>
+                <h3 class="Nem col-3">Ort. Nem</h3>
+                <h3 class="PPM col-3">Ort. PPM</h3>
+            </div>
+        </div>
+        <div id="footer" class="fixed-bottom">
+            <div class="footerbaslik">
+                <div class="logo2"><a href="https://ute.gtu.edu.tr/eng/index.html" target="_blank"><p><img src="img/ute_logo2.png" ></p></a></div>
+            </div>    
+        </div>
     </div>
-    <div id="map"></div>
+
+    <!-- <div id="footer" class="position-fixed">
+        <div class="row col-12 text-center align-items-center border-bottom-5">
+            <h3 class="Sicaklik col-3">Ort. Sicaklik</h3>
+            <h3 class="Basinc col-3">Ort. Basinc</h3>
+            <h3 class="Nem col-3">Ort. Nem</h3>
+            <h3 class="PPM col-3">Ort. PPM</h3>
+        </div>
+    </div> -->
 
 
 

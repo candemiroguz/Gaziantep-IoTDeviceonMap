@@ -1,0 +1,451 @@
+﻿<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="default0">
+<IconStyle>
+<scale>1</scale>
+</IconStyle>
+</Style>
+<Folder>
+<name>Netcad Verileri</name>
+
+<ScreenOverlay>
+<name>www.netcad.com.tr</name>
+<visibility>1</visibility>
+<Icon>
+<href>http://download.netcadportal.com/images/netcad_logo.jpg</href>
+</Icon>
+<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+<size x="0" y="0" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay>
+
+<Folder><name>NOKTA</name>
+<Placemark>
+<name>AHMETYESEV</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3993103187246,37.05028310665,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>AKÇAKÖY</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.8674027307543,36.8306055499804,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ALTINÜZÜM</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>36.5695612100678,36.9359305805073,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAĞTEPE</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.6427784500752,37.3319069840651,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BAKIRCA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.5046661464404,37.3144107670164,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BALLIK</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.5308337763894,37.3313434042995,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BEYAZLAR</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3525822054791,37.0549223777239,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BEYKENT</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.4256053582777,37.1303892761131,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BÜLENTUSLU</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3283591842682,37.0657367745766,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>BÜYKŞAHNBE</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.4272562531489,36.9512888098714,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ÇATALSU</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.4207532390878,36.8663404430597,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DOĞANPINAR</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.6170681382294,36.8419595104314,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>DUMLUPNAR</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.6875042827229,37.4205310186748,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ESENYURT</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>36.746707695512,37.1814874102753,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>EYÜPSULTAN</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3917880589918,37.0817891258197,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GAZİKENT</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.4291995113215,37.0880028505354,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GEVENCE</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.8436142165516,36.9132036059427,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GLŞNÖZKAYA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3472607069186,37.0606802645979,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GÖKÇELİ</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.7016422050655,36.8809288068109,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>GÜZELVADİ</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3959213487864,37.0361505587102,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HİSARARABN</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.9188367656398,37.3865162228957,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HİSARNURDA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>36.9048772676401,37.1520078392629,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>HZ.AİŞE</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3983943380305,37.072476673754,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>İBRAHİMLİ</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3162382827426,37.072587426963,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>İBRAHİMŞHR</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.6327818629201,37.0688807440385,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>İNCİLİKAYA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.441336506017,37.048287425621,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KALEOBASI</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>36.8669175977294,36.9067120830899,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KAYABAŞI</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>36.5192228466173,36.9299788583396,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KAYALAR</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.7690622180577,37.2239757715999,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KORUCAK</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.7334129766148,37.2033065903841,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>KÜÇÜKALAHA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.7595122088384,37.1997216831278,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MEVLANA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3855358188718,37.0932791504969,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>MHMETOBASI</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.7395793729783,37.1754090350036,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NZPEYPSLTA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.8149695659662,37.0163016847902,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>NZPMEVLANA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.8075780701391,37.0217468958341,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>PERİLİKAYA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.4151903381745,37.0511811234062,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SEL.EYYUBİ</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3943629815661,37.0440919760763,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SOYLU</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.9109229047509,36.8358694968837,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SÜLYMANOBA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.5525234555076,37.2522636904786,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>ŞATIRHÖYÜK</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>36.9764909125295,37.2203106772065,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>TOSUNLU</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.6653371686478,37.2123300600777,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>YALNIZBAĞ</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.4626667692851,36.9903244101978,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>YAZILI</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.4585562873287,36.846664066568,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>YEŞERTİ</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.8460590454696,36.8532323659889,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>YEŞİLOVA</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.6848690134582,37.4277600439893,0 </coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>YUNUSEMRE</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.3863494317841,37.0450773703783,0 </coordinates>
+</Point>
+</Placemark>
+
+</Folder>
+<Folder><name>NIR</name>
+<Placemark>
+<name>ÇULCUKASIM</name>
+<styleUrl>#default0</styleUrl>
+<visibility>1</visibility>
+<Point>
+<coordinates>37.8044888302681,37.0095067329859,0 </coordinates>
+</Point>
+</Placemark>
+
+</Folder>
+</Folder>
+</Document>
+</kml>
